@@ -108,7 +108,8 @@ RUTA -> http://localhost:10000/api/search/:origin/:destination
 Al ingresar esta ruta debería mandar la siguiente respuesta (rutas múltiples y de retorno)
 
 ```json
-  {
+  [
+    {
     "Journey": {
       "database": false,
       "origin": "CUC",
