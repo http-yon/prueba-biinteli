@@ -1,3 +1,13 @@
+
+//clase para simular un vuelo
+
+/**
+    * transport ->  La información del transporte asociado al vuelo.
+    * origin ->  El lugar de origen del vuelo.
+    * destination ->  El lugar de destino del vuelo.
+    * price ->  El precio del vuelo.
+*/
+
 export default class Flight {
     transport;
     origin;
@@ -10,7 +20,4 @@ export default class Flight {
         this.destination = destination;
         this.price = price;
     }
-
-    
-
 }

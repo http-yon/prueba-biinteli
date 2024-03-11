@@ -1,6 +1,7 @@
+//importamos mongoose y su funcion schema
 import mongoose, { Schema } from "mongoose";
-//import { flightSchema } from "./Flight.js";
 
+//creamos el schema de viajes
 const journeySchema = mongoose.Schema({
     origin: {
         type: String,
@@ -25,6 +26,8 @@ const journeySchema = mongoose.Schema({
         
 })
 
+//creamos el modelo de viajes con es schema antes creado
 const JourneyModel = mongoose.model('Journey', journeySchema, "journey");
 
+//exportamos el modelo
 export { JourneyModel }
